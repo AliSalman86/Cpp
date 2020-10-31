@@ -61,12 +61,12 @@ namespace namespace5 {
 int main() {
     // Access value function within namespace1
     cout << namespace1::value() << '\n';
-    cout << "==================================================\n";
+    cout << endl;
     // Access value function within namespace2
     cout << namespace2::value() << '\n';
     // Access the variable x directly in namespace2
     cout << namespace2::x << '\n';
-    cout << "==================================================\n";
+    cout << endl;
     // Creating an Object of nsClass Class
     namespace3::nsClass obj1;
     obj1.display();
