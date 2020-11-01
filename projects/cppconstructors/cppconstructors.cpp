@@ -29,7 +29,7 @@ class construct {
     // creating a parameterized Constructor: construct
     construct(int x, int y) { a = x; b = y; }
     // creating a copy constructor using c2 as reference
-    construct(const construct& rhs) { a = rhs.a; b = rhs.b; }
+    construct(const construct &rhs) { a = rhs.a; b = rhs.b; }
 };
 
 int main() {
@@ -48,7 +48,7 @@ int main() {
     cout << "copy a: " << c3.a << endl;
     cout << "copy b: " << c3.b << endl;
     cout << endl;
-    
+
     return 0;
 }
 
